@@ -1,0 +1,1 @@
+import{r as e}from"./links-Dh7rwv8j.js";var t={async supported(){let e=navigator.xr;if(!e||!window.isSecureContext)return!1;try{return await e.isSessionSupported(`immersive-ar`)}catch{return!1}},async start(t){let n=t.current?.to;n&&window.location.assign(e(window.location.href,n.poi_id))},stop(){}};export{t as arGuide};
