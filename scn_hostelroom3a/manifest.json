@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "scene_id": "scn_hostelroom3a",
+  "space_id": "spc_hostelroom3a",
+  "version": 1,
+  "created_at": "2026-11-21T08:59:42Z",
+  "job_id": "job_hostelroom3a",
+  "assets": {
+    "full": "ast_hostelroomfl",
+    "lite": "ast_hostelroomlt",
+    "grid": "ast_hostelroomgd"
+  },
+  "asset_table": {
+    "ast_hostelroomfl": {
+      "schema_version": 1,
+      "asset_id": "ast_hostelroomfl",
+      "kind": "splat_full",
+      "format": "spz",
+      "uri": "full.spz",
+      "sha256": "4e43fb09d4a0af75012bf9049d6f03f5f560414dcce5128ce47d23626e087eb0",
+      "bytes": 32892778,
+      "gaussians": 1771909
+    },
+    "ast_hostelroomlt": {
+      "schema_version": 1,
+      "asset_id": "ast_hostelroomlt",
+      "kind": "splat_lite",
+      "format": "spz",
+      "uri": "lite.spz",
+      "sha256": "423fde20c80dbe1087fbdcdaf7d8c6cd70be7c96ce2175b13afe204fe1426274",
+      "bytes": 4304111,
+      "gaussians": 276431
+    },
+    "ast_hostelroomgd": {
+      "schema_version": 1,
+      "asset_id": "ast_hostelroomgd",
+      "kind": "grid",
+      "format": "json",
+      "uri": "grid.json",
+      "sha256": "26cd20c0be612d0e31ab94c66499023f52514b66922018507895c61d8b11ce67",
+      "bytes": 41694
+    }
+  },
+  "transform": {
+    "world_from_splat": [
+      0.35517420081719314,
+      -0.07190293103438196,
+      -0.28742296591841565,
+      0.0,
+      -0.291720419469372,
+      -0.16328717007051194,
+      -0.31963604726279393,
+      0.0,
+      -0.05178020561264204,
+      0.42672939241846736,
+      -0.17073822567803584,
+      0.0,
+      -0.3994656461973479,
+      1.3757319599502598,
+      0.25173623233645337,
+      1.0
+    ],
+    "scale": 0.46252643789820885,
+    "method": "floor_ransac+tape_pair",
+    "residuals": {
+      "floor_rms_m": 0.0061,
+      "scale_check_error_pct": null
+    }
+  },
+  "start_pose": {
+    "x": -0.003,
+    "z": 0.296,
+    "yaw_deg": 0.0
+  },
+  "eye_height_m": 1.5,
+  "bounds": {
+    "minX": -2.978,
+    "maxX": 2.897,
+    "minZ": -1.229,
+    "maxZ": 1.769
+  }
+}
