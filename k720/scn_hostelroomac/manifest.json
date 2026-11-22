@@ -3,7 +3,7 @@
   "scene_id": "scn_hostelroomac",
   "space_id": "spc_hostelroomaa",
   "version": 1,
-  "created_at": "2026-11-21T17:14:37Z",
+  "created_at": "2026-11-22T07:07:31Z",
   "job_id": "job_hostelroomac",
   "assets": {
     "full": "ast_hostelroomfl",
@@ -17,9 +17,9 @@
       "kind": "splat_full",
       "format": "spz",
       "uri": "full.spz",
-      "sha256": "debcbcbaf64676d015406345d2ebb6e530ed3cafbc6c9a2aa2db7349e85f7218",
-      "bytes": 45853749,
-      "gaussians": 2399579
+      "sha256": "37f53b4e79e5624b8513b89afff4dfaa6bade091d4badcec237633757c5a9051",
+      "bytes": 44998172,
+      "gaussians": 2360021
     },
     "ast_hostelroomlt": {
       "schema_version": 1,
@@ -27,9 +27,9 @@
       "kind": "splat_lite",
       "format": "spz",
       "uri": "lite.spz",
-      "sha256": "15df5841e918a62382a0ec96eeadcc6a5775580bde39f6b35674d2992d100a49",
-      "bytes": 5988947,
-      "gaussians": 363188
+      "sha256": "ce537ae2b67e96aad165bf5eaf91fe77f2167b1e39f4345c36099c760f707a92",
+      "bytes": 5896640,
+      "gaussians": 358441
     },
     "ast_hostelroomgd": {
       "schema_version": 1,
